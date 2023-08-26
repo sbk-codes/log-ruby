@@ -1,6 +1,7 @@
 # log-ruby
 ## Analaysing and processing log files
 
+### Using Ruby Interpreter
 1. **Clone the Repository**: Clone this repository to your local machine using `git clone https://github.com/sbk-codes/log-ruby.git`.
 
 2. **Navigate to the Directory**: Open the terminal and navigate to the directory where you cloned the repository.
@@ -17,3 +18,16 @@
 
 ---
 
+### Using Docker
+1. **Clone the Repository**: Clone this repository to your local machine using `git clone https://github.com/sbk-codes/log-ruby.git`.
+
+2. **Navigate to the Directory**: Open the terminal and navigate to the directory where you cloned the repository.
+
+3. **Run Docker Compose**: Execute the following command to run the Docker container using docker-compose:
+```
+docker-compose run -e FILENAME=calculate_aggregations.rb ruby_app
+
+```
+     Note: To run other programs, replace `calculate_aggregations` with `count_status_codes` or `get_users_with_version`
+
+4. **View Output**: The script will display the output in the terminal.
