@@ -51,4 +51,5 @@ log_lines = [
               "2016-05-01 12:22:40 code=400", "2016-05-01 12:22:44 code=200"
             ]
 
+# Call the function to count status codes and print results
 count_status_codes(log_lines)
