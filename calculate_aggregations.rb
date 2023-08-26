@@ -15,7 +15,7 @@ class LogAnalyser
   end
 
   # Calculating and displaying the aggregated data for each label
-  def output
+  def execute
     @data.each do |label, value|
       collector = Analyser.new(value)
       puts "#{label} #{collector}"
@@ -51,7 +51,7 @@ end
 def calculate_aggregations(log_lines)
   analyser = LogAnalyser.new
   analyser.process(log_lines)
-  analyser.output
+  analyser.execute
 end
 
 # Example call with sample log lines, update your log lines here
