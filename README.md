@@ -20,7 +20,7 @@
 ---
 
 ### Using Docker
-1. **Clone the Repository**: Clone this repository to your local machine using `git clone https://github.com/sbk-codes/log-ruby.git`.
+1. **Clone the Repository**: Clone this repository to your local machine using `git clone https://github.com/sbk-codes/log-ruby.git` or `git clone git@github.com:sbk-codes/log-ruby.git`.
 
 2. **Navigate to the Directory**: Open the terminal and navigate to the directory where you cloned the repository.
 
