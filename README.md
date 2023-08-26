@@ -14,6 +14,7 @@
 4. **View Output**: The script will display the output in the terminal.
 
       Make sure you have Ruby installed on your local machine. You can check your Ruby version with `ruby -v`.
+
       Note: This method is for running the script directly with Ruby on your local machine.
 
 ---
@@ -24,10 +25,8 @@
 2. **Navigate to the Directory**: Open the terminal and navigate to the directory where you cloned the repository.
 
 3. **Run Docker Compose**: Execute the following command to run the Docker container using docker-compose:
-```
-docker-compose run -e FILENAME=calculate_aggregations.rb ruby_app
+   `docker-compose run -e FILENAME=calculate_aggregations.rb ruby_app`
 
-```
-     Note: To run other programs, replace `calculate_aggregations` with `count_status_codes` or `get_users_with_version`
+    Note: To run other programs, replace `calculate_aggregations.rb` with `count_status_codes.rb` or `get_users_with_version.rb` in the `docker-compose` command
 
 4. **View Output**: The script will display the output in the terminal.
