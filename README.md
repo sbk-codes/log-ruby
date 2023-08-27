@@ -32,3 +32,10 @@
     Note: To update the input, Go to the file and search for the comment: `# Example call with sample log lines, update your log lines here` and update the variable `log_files`
 
 4. **View Output**: The script will display the output in the terminal.
+
+---
+
+### Pending Actions
+- [ ] Unit Test Cases
+- [ ] Gemifying the scripts to make it a GEM
+- [ ] Refactoring for time and space complexity as the current script's primary focus was on code readability, maintainability, and extensibility
