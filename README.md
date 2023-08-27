@@ -30,3 +30,10 @@
     Note: To run other programs, replace `calculate_aggregations.rb` with `count_status_codes.rb` or `get_users_with_version.rb` in the `docker-compose` command
 
 4. **View Output**: The script will display the output in the terminal.
+
+---
+
+### Pending Actions
+- [ ] Unit Test Cases
+- [ ] Gemifying the scripts to make it a GEM
+- [ ] Refactoring for time and space complexity as the current script's primary focus was on code readability, maintainability, and extensibility
