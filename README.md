@@ -29,4 +29,6 @@
 
     Note: To run other programs, replace `calculate_aggregations.rb` with `count_status_codes.rb` or `get_users_with_version.rb` in the `docker-compose` command
 
+    Note: To update the input, Go to the file and search for the comment: `# Example call with sample log lines, update your log lines here` and update the variable `log_files`
+
 4. **View Output**: The script will display the output in the terminal.
