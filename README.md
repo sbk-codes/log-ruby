@@ -39,3 +39,4 @@
 - [ ] Unit Test Cases
 - [ ] Gemifying the scripts to make it a GEM
 - [ ] Refactoring for time and space complexity as the current script's primary focus was on code readability, maintainability, and extensibility
+- [ ] Making the code as an one individual class to accomodate for different scenarios
